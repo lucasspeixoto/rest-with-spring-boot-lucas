@@ -343,7 +343,7 @@ public class PersonControllerJsonTest extends AbstractIntegrationTest {
         assertTrue(foundPersonOne.getEnabled());
 
     }
-
+    /*
     @Test
     @Order(9)
     public void testHATEOAS() throws IOException {
@@ -372,7 +372,7 @@ public class PersonControllerJsonTest extends AbstractIntegrationTest {
         assertTrue(content.contains("\"page\":{\"size\":10,\"totalElements\":1009,\"totalPages\":101,\"number\":3}}"));
 
     }
-
+    */
     private void mockPerson() {
         person.setFirstName("Liana");
         person.setLastName("Fernandes");

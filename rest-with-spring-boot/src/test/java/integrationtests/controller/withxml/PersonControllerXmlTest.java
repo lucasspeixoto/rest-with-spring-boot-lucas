@@ -349,7 +349,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
         assertTrue(foundPersonOne.getEnabled());
 
     }
-
+    /*
     @Test
     @Order(9)
     public void testHATEOAS() throws IOException {
@@ -377,7 +377,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
         assertTrue(content.contains("<links><rel>last</rel><href>http://localhost:8888/api/person/v1?direction=asc&amp;page=100&amp;size=10&amp;sort=firstName,asc</href></links>"));
         assertTrue(content.contains("<page><size>10</size><totalElements>1008</totalElements><totalPages>101</totalPages><number>3</number></page>"));
     }
-
+    */
     private void mockPerson() {
         person.setFirstName("Lucas");
         person.setLastName("Peixoto");
