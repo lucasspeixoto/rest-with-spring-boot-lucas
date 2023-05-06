@@ -36,6 +36,5 @@ jobs:
       run: |
         docker tag ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot:latest ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot:${{ github.run_id }}
         
-        docker push ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot:latest
         docker push ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot:${{ github.run_id }}
-        
+        docker push ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot:latest
