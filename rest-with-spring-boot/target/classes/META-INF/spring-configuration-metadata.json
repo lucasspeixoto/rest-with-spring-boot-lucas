@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.api.restwithspringboot.config.FileStorageConfig",
+      "sourceType": "com.api.restwithspringboot.config.FileStorageConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.api.restwithspringboot.config.FileStorageConfig"
+    }
+  ],
+  "hints": []
+}
